@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sweet Delight Shop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fff8f0;
+    }
+
+    header {
+      background: #d35400;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    h2 {
+      color: #d35400;
+      border-bottom: 2px solid #f1c40f;
+      padding-bottom: 5px;
+    }
+
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .item {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .item:hover {
+      transform: scale(1.05);
+    }
+
+    .item h3 {
+      margin: 0 0 10px;
+    }
+
+    .price {
+      color: green;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #d35400;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>🍬 Sweet Delight Shop</h1>
+  <p>Fresh & Delicious Indian Sweets</p>
+</header>
+
+<div class="container">
+
+  <h2>Laddoos</h2>
+  <div class="menu">
+    <div class="item">
+      <h3>Besan Laddoo</h3>
+      <p class="price">₹400/kg</p>
+    </div>
+    <div class="item">
+      <h3>Motichoor Laddoo</h3>
+      <p class="price">₹450/kg</p>
+    </div>
+  </div>
+
+  <h2>Barfi</h2>
+  <div class="menu">
+    <div class="item">
+      <h3>Kaju Barfi</h3>
+      <p class="price">₹900/kg</p>
+    </div>
+    <div class="item">
+      <h3>Pista Barfi</h3>
+      <p class="price">₹850/kg</p>
+    </div>
+  </div>
+
+  <h2>Snacks</h2>
+  <div class="menu">
+    <div class="item">
+      <h3>Samosa</h3>
+      <p class="price">₹20 each</p>
+    </div>
+    <div class="item">
+      <h3>Kachori</h3>
+      <p class="price">₹25 each</p>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p>📍 Visit us for fresh sweets every day!</p>
+</footer>
+
+</body>
+</html>
